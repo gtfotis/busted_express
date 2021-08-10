@@ -1,5 +1,4 @@
-modules.exports = [
-    {
+module.exports = [{
         id: 1,
         slug: 'red_ranger',
         name: 'Red Ranger',
@@ -10,7 +9,7 @@ modules.exports = [
         slug: 'black_ranger',
         name: 'Black Ranger',
         zord: 'Mastodon'
-    }
+    },
     {
         id: 3,
         slug: 'pink_ranger',
@@ -19,14 +18,14 @@ modules.exports = [
     },
     {
         id: 4,
-        slug: 'yello_ranger',
+        slug: 'yellow_ranger',
         name: 'Yellow Ranger',
         zord: 'Sabretooth Tiger'
     },
     {
         id: 5,
         slug: 'blue_ranger',
-        name: 'Blue ranger',
+        name: 'Blue Ranger',
         zord: 'Triceratops'
     },
     {
@@ -34,5 +33,5 @@ modules.exports = [
         slug: 'green_ranger',
         name: 'Green Ranger',
         zord: 'Dragon'
-    },
+    }
 ];

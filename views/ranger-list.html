@@ -1,0 +1,5 @@
+<h1>${title}</h1>
+<ul>
+    ${data.map(ranger => `
+    <li><a href='../rangers/${ranger.slug}'>${ranger.name}</a></li>`).join('')}
+</ul>
